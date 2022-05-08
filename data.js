@@ -3,14 +3,14 @@ const applicatons = [
     company: "AvantStay",
     logo: "./images/AvantStay",
     position: "Frontend (React) Engineer",
-    status: "Status Update Offsite",
+    status: "Status Updates Offsite",
     date: new Date(),
   },
   {
     company: "ButterflyMX",
     logo: "./images/ButterflyMX",
     position: "Front End Engineer (Remote)",
-    status: "Status Update Offsite",
+    status: "Status Updates Offsite",
     date: new Date(),
   },
   {
