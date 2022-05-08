@@ -1,5 +1,14 @@
 * {
-  /* text-decoration: none !important; */
+  font-family: Helvetica Neue,arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+body {
+  background-color: #fff;
+  font-family: Helvetica Neue,arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #162040;
+  overflow-y: scroll;
 }
 
 main .nav a {
@@ -18,36 +27,62 @@ main .nav a {
   color: #385075;
   font-size: 11px;
   line-height: 20px;
+  text-decoration: none;
 }
 
 /* Style the tab */
 .tab {
+  display: flex;
   overflow: hidden;
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 4px;
   background-color: inherit;
-  float: left;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px 15px 0;
-  transition: 0.3s;
+  margin: 14px 16px 15px 0;
+  padding: 0 0 14px 0;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  text-decoration: underline;
+  color: #050c26;
+  border-bottom: 2px solid #385075;
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
+}
+
+.status {
+  border-radius: 50%;
+  margin-right: 8px;
+  width: 8px;
+  height: 8px;
+}
+
+.pending {
+  background-color: #f2a73d;
+}
+.accepted {
+  background-color: #009c5e;
+}
+.not-accepted {
+  background-color: #ee2531;
+}
+.offsite {
+  background-color: #7b91b1;
 }
