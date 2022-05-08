@@ -52,12 +52,16 @@ main .nav a {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  /* text-decoration: underline; */
+  margin: 14px 16px 15px 0;
+  padding: 0 0 12px 0;
+  color: #0f6fff;
+  border-bottom: 2px solid #eee;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
   color: #050c26;
+  padding: 0 0 12px 0;
   border-bottom: 2px solid #385075;
 }
 
