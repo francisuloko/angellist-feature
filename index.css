@@ -1,14 +1,6 @@
 * {
-  font-family: Helvetica Neue,arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-}
-
-body {
-  background-color: #fff;
-  font-family: Helvetica Neue,arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #162040;
-  overflow-y: scroll;
+  font-family: Helvetica Neue, arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 main .nav a {
@@ -71,22 +63,14 @@ main .nav a {
   padding: 6px 12px;
 }
 
-.status {
-  border-radius: 50%;
-  margin-right: 8px;
-  width: 8px;
-  height: 8px;
+.angel-color {
+  color: #576f92;
 }
 
-.pending {
-  background-color: #f2a73d;
+.angel-border {
+  border-color: #acbdd5;
 }
-.accepted {
-  background-color: #009c5e;
-}
-.not-accepted {
-  background-color: #ee2531;
-}
-.offsite {
-  background-color: #7b91b1;
+
+.angel-green {
+  color: #00cc96;
 }
