@@ -172,7 +172,7 @@
         </div>
       </header>
       <main class="">
-        <div class="row gx-1">
+        <div class="row mx-0 gx-1">
           <div class="col-1 p-0 h-100 sticky-top">
             <div class="nav d-flex flex-column flex-shrink-0 sticky-top h-100">
               <a href="#">
@@ -292,215 +292,35 @@
               <h2 class="">Applications</h2>
               <!-- Tab links -->
               <div class="tab">
-                <button class="tablinks" onclick="openCity(event, 'Pending')">
+                <button class="tablinks" id="pending-tab">
                   Pending
                 </button>
-                <button class="tablinks" onclick="openCity(event, 'Accepted')">
+                <button class="tablinks" id="accepted-tab">
                   Accepted
                 </button>
                 <button
                   class="tablinks"
-                  onclick="openCity(event, 'Not Accepted')"
+                  id="not-accepted-tab"
                 >
                   Not Accepted
                 </button>
-                <button class="tablinks" onclick="openCity(event, 'Offsite')">
+                <button class="tablinks" id="offsite-tab">
                   Status Updates Offsite
                 </button>
               </div>
 
               <!-- Tab content -->
-              <div id="Pending" class="tabcontent">
-                <div class="application d-flex gap-3 p-3 border rounded">
-                  <img class="company-logo" src="./AvantStay.webp" width="70" height="70" alt="company logo" />
-                  <div class="details w-100">
-                    <div class="company d-flex align-items-center justify-content-between">
-                      <h3>AvantStay</h3>
-                      <svg
-                        height="16"
-                        width="16"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="angel-color"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 21a.997.997 0 00.707-.293l8-8a.999.999 0 000-1.414l-8-8a.999.999 0 10-1.414 1.414L14.586 12l-7.293 7.293A.999.999 0 008 21z"
-                          fill="currentColor"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span class="text-md text-slate-700">Frontend (React) Engineer</span>
-                    <div class="date-applied">
-                      <span>Applied on</span>
-                      <span>May 7th</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="application d-flex gap-3 p-3 border rounded">
-                  <img class="company-logo" src="./AvantStay.webp" width="70" height="70" alt="company logo" />
-                  <div class="details w-100">
-                    <div class="company d-flex align-items-center justify-content-between">
-                      <h3>AvantStay</h3>
-                      <svg
-                        height="16"
-                        width="16"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="angel-color"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 21a.997.997 0 00.707-.293l8-8a.999.999 0 000-1.414l-8-8a.999.999 0 10-1.414 1.414L14.586 12l-7.293 7.293A.999.999 0 008 21z"
-                          fill="currentColor"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span class="text-md text-slate-700">Frontend (React) Engineer</span>
-                    <div class="date-applied">
-                      <span>Applied on</span>
-                      <span>May 7th</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="application d-flex gap-3 p-3 border rounded">
-                  <img class="company-logo" src="./AvantStay.webp" width="70" height="70" alt="company logo" />
-                  <div class="details w-100">
-                    <div class="company d-flex align-items-center justify-content-between">
-                      <h3>AvantStay</h3>
-                      <svg
-                        height="16"
-                        width="16"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="angel-color"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 21a.997.997 0 00.707-.293l8-8a.999.999 0 000-1.414l-8-8a.999.999 0 10-1.414 1.414L14.586 12l-7.293 7.293A.999.999 0 008 21z"
-                          fill="currentColor"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span class="text-md text-slate-700">Frontend (React) Engineer</span>
-                    <div class="date-applied">
-                      <span>Applied on</span>
-                      <span>May 7th</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="application d-flex gap-3 p-3 border rounded">
-                  <img class="company-logo" src="./AvantStay.webp" width="70" height="70" alt="company logo" />
-                  <div class="details w-100">
-                    <div class="company d-flex align-items-center justify-content-between">
-                      <h3>AvantStay</h3>
-                      <svg
-                        height="16"
-                        width="16"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="angel-color"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 21a.997.997 0 00.707-.293l8-8a.999.999 0 000-1.414l-8-8a.999.999 0 10-1.414 1.414L14.586 12l-7.293 7.293A.999.999 0 008 21z"
-                          fill="currentColor"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span class="text-md text-slate-700">Frontend (React) Engineer</span>
-                    <div class="date-applied">
-                      <span>Applied on</span>
-                      <span>May 7th</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="application d-flex gap-3 p-3 border rounded">
-                  <img class="company-logo" src="./AvantStay.webp" width="70" height="70" alt="company logo" />
-                  <div class="details w-100">
-                    <div class="company d-flex align-items-center justify-content-between">
-                      <h3>AvantStay</h3>
-                      <svg
-                        height="16"
-                        width="16"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="angel-color"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 21a.997.997 0 00.707-.293l8-8a.999.999 0 000-1.414l-8-8a.999.999 0 10-1.414 1.414L14.586 12l-7.293 7.293A.999.999 0 008 21z"
-                          fill="currentColor"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span class="text-md text-slate-700">Frontend (React) Engineer</span>
-                    <div class="date-applied">
-                      <span>Applied on</span>
-                      <span>May 7th</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="application d-flex gap-3 p-3 border rounded">
-                  <img class="company-logo" src="./AvantStay.webp" width="70" height="70" alt="company logo" />
-                  <div class="details w-100">
-                    <div class="company d-flex align-items-center justify-content-between">
-                      <h3>AvantStay</h3>
-                      <svg
-                        height="16"
-                        width="16"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="angel-color"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M8 21a.997.997 0 00.707-.293l8-8a.999.999 0 000-1.414l-8-8a.999.999 0 10-1.414 1.414L14.586 12l-7.293 7.293A.999.999 0 008 21z"
-                          fill="currentColor"
-                        ></path>
-                      </svg>
-                    </div>
-                    <span class="text-md text-slate-700">Frontend (React) Engineer</span>
-                    <div class="date-applied">
-                      <span>Applied on</span>
-                      <span>May 7th</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div id="Accepted" class="tabcontent">
-                <h3>Accepted applications</h3>
-              </div>
-
-              <div id="Not Accepted" class="tabcontent">
-                <h3>Not Accepted</h3>
-                <p>Not Accepted applications</p>
-              </div>
-
-              <div id="Offsite" class="tabcontent">
-                <h3>Status Updates Offsite</h3>
-                <p>Status Updates Offsite</p>
-              </div>
+              <div id="pending" class="tabcontent"></div>
+              <div id="accepted" class="tabcontent"></div>
+              <div id="not-accepted" class="tabcontent"></div>
+              <div id="offsite" class="tabcontent"></div>
             </section>
           </div>
-          <div class="col-1"></div>
         </div>
       </main>
     </div>
-    <script src="./index.js"></script>
+    <script src="./index.js" type="module">
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

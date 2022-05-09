@@ -1,7 +1,10 @@
-const openCity = (evt, cityName) => {
+import applications, { slate } from "./data.js";
+
+function openTab(evt) {
   // Declare all variables
   var i, tabcontent, tablinks;
-
+  const tab = (evt.target.id).slice(0, -4);
+  
   // Get all elements with class="tabcontent" and hide them
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -15,7 +18,32 @@ const openCity = (evt, cityName) => {
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(tab).style.display = "block";
   evt.currentTarget.className += " active";
-}
-document.getElementById("Pending").style.display = "block";
+};
+
+document.getElementById("pending-tab").addEventListener("click", openTab);
+document.getElementById("accepted-tab").addEventListener("click", openTab);
+document.getElementById("not-accepted-tab").addEventListener("click", openTab);
+document.getElementById("offsite-tab").addEventListener("click", openTab);
+
+applications.forEach((job) => {
+  let app = slate(job);
+  if (job.status === "pending") {
+    document.getElementById("pending").innerHTML += app;
+  }
+
+  if (job.status === "accepted") {
+    document.getElementById("accepted").innerHTML += app;
+  }
+
+  if (job.status === "not-accepted") {
+    document.getElementById("not-accepted").innerHTML += app;
+  }
+
+  if (job.status === "offsite") {
+    document.getElementById("offsite").innerHTML += app;
+  }
+});
+
+export default openTab;

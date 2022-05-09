@@ -1,12 +1,13 @@
 * {
   font-family: Helvetica Neue, arial, Noto Sans, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    border: 1px solid transparent;
     box-sizing: content-box;
+
 }
 
 header {
   background-color: #f2f8ff !important;
+  margin: 0;
 }
 
 main .nav a {
@@ -46,6 +47,7 @@ main .nav a {
   cursor: pointer;
   margin: 14px 16px 15px 0;
   padding: 0 0 14px 0;
+  color: #525769;
 }
 
 /* Change background color of buttons on hover */
@@ -110,4 +112,10 @@ main .nav a {
 .application{
   width: 95% !important;
   margin: 15px 0;
+}
+
+.date {
+  color: #7b91b1;
+  font-size: 12px;
+  line-height: 20px;
 }
