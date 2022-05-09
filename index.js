@@ -26,6 +26,7 @@ document.getElementById("pending-tab").addEventListener("click", openTab);
 document.getElementById("accepted-tab").addEventListener("click", openTab);
 document.getElementById("not-accepted-tab").addEventListener("click", openTab);
 document.getElementById("offsite-tab").addEventListener("click", openTab);
+const pending = document.getElementById("pending").style.display = "block";
 
 applications.forEach((job) => {
   let app = slate(job);
