@@ -132,6 +132,20 @@ const applicatons = [
     status: "not-accepted",
     date: "Apr 20",
   },
+  {
+    company: "SchoolMaker",
+    logo: "./images/SchoolMaker",
+    position: "Hiring talented Full-Stack Engineer for fast-growing SaaS company [Full-time+Remote]",
+    status: "accepted",
+    date: "Apr 20",
+  },
+  {
+    company: "Stampix",
+    logo: "./images/Stampix",
+    position: "Senior Software Engineer",
+    status: "accepted",
+    date: "Apr 20",
+  },
 ];
 
 export const slate = (job) => {

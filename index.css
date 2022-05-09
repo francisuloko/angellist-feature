@@ -109,7 +109,7 @@ main .nav a {
   line-height: 20px;
 }
 
-.application{
+.application {
   width: 95% !important;
   margin: 15px 0;
 }
@@ -119,3 +119,19 @@ main .nav a {
   font-size: 12px;
   line-height: 20px;
 }
+
+.total {
+  font-size: 14px;
+}
+
+span#status {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
+
+.pending { background-color: #f2a73d; }
+.accepted { background-color: #009c5e; }
+.not-accepted { background-color: #ee2531; }
+.offsite { background-color: #7b91b1; }
