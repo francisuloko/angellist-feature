@@ -1,6 +1,8 @@
 * {
   font-family: Helvetica Neue, arial, Noto Sans, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    border: 1px solid transparent;
+    box-sizing: content-box;
 }
 
 header {
@@ -64,7 +66,6 @@ main .nav a {
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 12px;
 }
 
 .angel-color {
@@ -82,4 +83,31 @@ main .nav a {
 
 .angel-green {
   color: #00cc96;
+}
+
+.company-logo {
+  border-radius: 4px;
+  height: 46px;
+  aspect-ratio: auto 46 / 46;
+  width: 46px;
+}
+.company h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.text-md {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.date-applied {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.application{
+  width: 95% !important;
+  margin: 15px 0;
 }
