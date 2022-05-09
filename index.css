@@ -3,6 +3,10 @@
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
+header {
+  background-color: #f2f8ff !important;
+}
+
 main .nav a {
   display: flex;
   flex-direction: column;
@@ -17,7 +21,7 @@ main .nav a {
   margin: 4px;
   transition: 0.3s ease-in-out;
   color: #385075;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 20px;
   text-decoration: none;
 }
@@ -65,6 +69,11 @@ main .nav a {
 
 .angel-color {
   color: #576f92;
+}
+
+.angel-active {
+  background-color: #f2f8ff !important;
+  color: #0f6fff !important;
 }
 
 .angel-border {
