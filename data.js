@@ -150,7 +150,7 @@ const applicatons = [
 
 export const slate = (job) => {
   return `
-  <div class="application d-flex gap-3 p-3 border rounded">
+  <div class="application d-flex gap-3 p-3 border rounded w-100 w-md-75">
     <img
       class="company-logo"
       src="./${job.logo}.webp"
