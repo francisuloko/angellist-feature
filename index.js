@@ -24,7 +24,6 @@ function openTab(evt) {
 
   document.getElementById(tab).style.display = "block";
   evt.currentTarget.className += " active";
-  console.log();
   document.getElementById("jobs-count").innerHTML =
     document.getElementById(tab).childElementCount;
 }

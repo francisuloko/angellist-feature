@@ -1,8 +1,7 @@
 * {
   font-family: Helvetica Neue, arial, Noto Sans, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    box-sizing: content-box;
-
+  box-sizing: content-box;
 }
 
 header {
@@ -29,13 +28,30 @@ main .nav a {
   text-decoration: none;
 }
 
-/* Style the tab */
+.hidden-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 8px;
+  position: relative;
+  padding: 8px 16px;
+  width: 100%;
+  max-width: 96px;
+  margin: 4px;
+  transition: 0.3s ease-in-out;
+  color: #385075;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
 .tab {
   display: flex;
   overflow: hidden;
 }
 
-/* Style the buttons that are used to open the tab content */
 .tab button {
   display: flex;
   align-items: center;
@@ -45,27 +61,24 @@ main .nav a {
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 14px 16px 15px 0;
+  margin: 14px 16px 5px 0;
   padding: 0 0 14px 0;
   color: #525769;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
-  margin: 14px 16px 15px 0;
+  margin: 14px 16px 5px 0;
   padding: 0 0 12px 0;
   color: #0f6fff;
   border-bottom: 2px solid #eee;
 }
 
-/* Create an active/current tablink class */
 .tab button.active {
   color: #050c26;
   padding: 0 0 12px 0;
   border-bottom: 2px solid #385075;
 }
 
-/* Style the tab content */
 .tabcontent {
   display: none;
 }
@@ -110,7 +123,6 @@ main .nav a {
 }
 
 .application {
-  width: 95% !important;
   margin: 15px 0;
 }
 
@@ -131,7 +143,15 @@ span#status {
   display: inline-block;
 }
 
-.pending { background-color: #f2a73d; }
-.accepted { background-color: #009c5e; }
-.not-accepted { background-color: #ee2531; }
-.offsite { background-color: #7b91b1; }
+.pending {
+  background-color: #f2a73d;
+}
+.accepted {
+  background-color: #009c5e;
+}
+.not-accepted {
+  background-color: #ee2531;
+}
+.offsite {
+  background-color: #7b91b1;
+}
