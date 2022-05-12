@@ -4,10 +4,10 @@
 
 
 Angel.co
-![screenshot](./angellist.png)
+![screenshot](./images/angellist.png)
 
 My Recommendation
-![Recommendation](./recommendation.png)
+![Recommendation](./images/recommendation.png)
 
 
 The Feature Recommendation categorizes jobs with the same status under a single tab and displays a jobs counter with default AngelList status color.
