@@ -12,6 +12,11 @@ My Recommendation
 
 The Feature Recommendation categorizes jobs with the same status under a single tab and displays a jobs counter with default AngelList status color.
 
+## Changes
+1. Categorized application on status tabs
+2. Added application counter
+3. Maintained default status colors
+
 ## Built With
 
 - JavaScript
